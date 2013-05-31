@@ -7,6 +7,11 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
+# Device for Authentication
+gem 'devise'
+# Simple Forms 
+gem 'simple_form'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
