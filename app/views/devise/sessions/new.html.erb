@@ -3,7 +3,7 @@
 	<div class="span4">
 		<%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), html: {class: "well"} ) do |f| %>
 		  <fieldset>
-		  	<legend>Sign in</legend>
+		  	<legend><h3 class="text-info">Sign in</h3></legend>
 		  	
 			  <%= f.input :email %>
 			  <%= f.input :password %>
@@ -19,6 +19,9 @@
 		<%= render "devise/shared/links" %>
 	</div>
 	<div class="span8">
-		<h2>Signing in is easy and secure</h2>
+		<h3 class="text-info">Signing in is easy and secure</h3>
+		<p class="lead muted">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, tempora, molestiae, debitis consectetur ipsum deleniti suscipit asperiores aperiam animi rem ullam commodi doloribus consequuntur esse possimus voluptatum iure. Impedit, soluta.
+		</p>
 	</div>
 </div>
