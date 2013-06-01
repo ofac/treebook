@@ -4,3 +4,10 @@ ofac:
  email: "ofaczero@gmail.com"
  profile_name: "Ofac"
  encrypted_password: "12345678"
+
+jim:
+ first_name: "Jim"
+ last_name: "Lala"
+ email: "jim@gmail.com"
+ profile_name: "Jim"
+ encrypted_password: "12345678" 
